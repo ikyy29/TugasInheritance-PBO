@@ -20,6 +20,4 @@ Polimorfisme adalah kemampuan objek untuk memiliki berbagai bentuk. Dalam kasus 
 
 ## Hasil Eksekusi Program (Screenshot)
 
-*(Catatan: Pastikan Anda telah mengunggah file gambar screenshot ke repositori ini)*
-
 ![Screenshot Output Program](output.png)
