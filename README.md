@@ -6,7 +6,7 @@ Berikut adalah penjelasan mengenai bagaimana tiga konsep utama PBO diterapkan da
 
 ### 1. Encapsulation (Enkapsulasi)
 Enkapsulasi adalah konsep menyembunyikan detail implementasi data dari akses langsung, sehingga data hanya bisa dimodifikasi melalui metode yang telah ditentukan (seperti *getter* dan *setter*).
-*   **Penerapan dalam kode:** Pada kelas `BujurSangkar`, atribut `sisi` dideklarasikan dengan hak akses `private` (`private double sisi;`). Hal yang sama berlaku pada kelas `Lingkaran` (`private double radius;`) dan `Silinder` (`private double tinggi;`). Atribut-atribut ini tidak bisa diakses sembarangan dari luar kelas. Untuk mengubah atau mengambil nilainya, program harus menggunakan *method setter* (misal: `setSisi()`) dan *getter* (misal: `getSisi()`).
+*   **Penerapan dalam kode:** Pada kelas `BujurSangkar`, atribut `sisi` dideklarasikan dengan hak akses `private` (`private double sisi;`). Hal yang sama berlaku pada kelas `Lingkaran` (`protected double radius;`) dan `Silinder` (`private double tinggi;`). Atribut-atribut ini tidak bisa diakses sembarangan dari luar kelas. Untuk mengubah atau mengambil nilainya, program harus menggunakan *method setter* (misal: `setSisi()`) dan *getter* (misal: `getSisi()`).
 
 ### 2. Inheritance (Pewarisan)
 Pewarisan memungkinkan sebuah kelas baru (kelas anak) mewarisi atribut dan *method* dari kelas yang sudah ada (kelas induk), sehingga menghindari penulisan kode berulang (*reusability*).
