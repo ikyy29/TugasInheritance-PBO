@@ -1,5 +1,5 @@
 public class Bentuk {
-    public String warna;
+    protected String warna;
 
     public Bentuk(String warna) {
         this.warna = warna;
